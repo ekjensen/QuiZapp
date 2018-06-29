@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using QuiZapp.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace QuiZapp
 {
@@ -31,6 +33,7 @@ namespace QuiZapp
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddDbContext<QuizContext>(options => options.UseSqlite(Configuration.GetConnectionString("QuizContext")));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
