@@ -9,7 +9,7 @@ namespace QuiZapp.Models
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int ID { get; set; }
         public string QuestionText { get; set; }
-        public int QuizID { get; set; }
+        public int QuizNameID { get; set; }
 
         public virtual ICollection<QuizName> QuizNames { get; set; }
     }
