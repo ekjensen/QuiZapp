@@ -4,13 +4,15 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace QuiZapp.Models
 {
-    public class Questions
+    public class Question
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public int ID { get; set; }
+        public int QuestionID { get; set; }
+        public int QuizID { get; set; }
         public string QuestionText { get; set; }
-        public int QuizNameID { get; set; }
 
-        public virtual ICollection<QuizName> QuizNames { get; set; }
+        public virtual Quiz Quiz { get; set; }
+
+        public ICollection<QuizAnswer> QuizAnswers { get; set; }
     }
 }
