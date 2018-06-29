@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{AF977084-6C50-410E-B3F3-1EA9993B14E7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Questions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
     <Files>
-      <File FileName="Models/QuizName.cs" Line="10" Column="41" />
-      <File FileName="Models/Questions.cs" Line="17" Column="1" />
+      <File FileName="Startup.cs" Line="36" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/earl/Documents/Emily/Portfolio/QuiZapp/Startup.cs" relfile="Startup.cs" line="36" column="46" />
+      <Breakpoint file="/Users/earl/Documents/Emily/Portfolio/QuiZapp/Startup.cs" relfile="Startup.cs" line="37" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

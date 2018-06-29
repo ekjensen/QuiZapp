@@ -5,7 +5,6 @@
 /Users/earl/Documents/Emily/Portfolio/QuiZapp/bin/Debug/netcoreapp2.1/QuiZapp.pdb
 /Users/earl/Documents/Emily/Portfolio/QuiZapp/bin/Debug/netcoreapp2.1/QuiZapp.Views.dll
 /Users/earl/Documents/Emily/Portfolio/QuiZapp/bin/Debug/netcoreapp2.1/QuiZapp.Views.pdb
-/Users/earl/Documents/Emily/Portfolio/QuiZapp/obj/Debug/netcoreapp2.1/QuiZapp.csprojAssemblyReference.cache
 /Users/earl/Documents/Emily/Portfolio/QuiZapp/obj/Debug/netcoreapp2.1/QuiZapp.csproj.CoreCompileInputs.cache
 /Users/earl/Documents/Emily/Portfolio/QuiZapp/obj/Debug/netcoreapp2.1/QuiZapp.RazorAssemblyInfo.cache
 /Users/earl/Documents/Emily/Portfolio/QuiZapp/obj/Debug/netcoreapp2.1/QuiZapp.RazorAssemblyInfo.cs
@@ -30,3 +29,4 @@
 /Users/earl/Documents/Emily/Portfolio/QuiZapp/obj/Debug/netcoreapp2.1/QuiZapp.dll
 /Users/earl/Documents/Emily/Portfolio/QuiZapp/obj/Debug/netcoreapp2.1/QuiZapp.pdb
 /Users/earl/Documents/Emily/Portfolio/QuiZapp/obj/Debug/netcoreapp2.1/QuiZapp.csproj.CopyComplete
+/Users/earl/Documents/Emily/Portfolio/QuiZapp/obj/Debug/netcoreapp2.1/QuiZapp.csprojResolveAssemblyReference.cache
